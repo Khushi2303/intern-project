@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnTube - Course Page</title>
+    <link rel="stylesheet" href="course-pagecss.css">
+    <style >
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="banner">
+            <img src="Resources/image 11.svg" alt="LearnTube Logo" class="logo"> LearnTube.ai
+
+        </div>
+        <div class="h-[36px] w-[2px] bg-white/20"></div>
+        <div class="text">
+            backed by <div></div>
+            <span class="highlight"><img src="Resources/use2460.svg" </span> for Startups
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>What <span class="highlight">Skill</span> Do You Want To Get Certified In?</h1>
+        <p>Select the category you are interested in or type the skill directly</p>
+        
+        <input type="text" placeholder="Find any skill you want" class="search-bar">
+        
+        <div class="progress-bar">
+            <div class="progress"></div>
+            <span>Step 2/2</span>
+        </div>
+
+        <h2>Choose A Category</h2>
+        <div class="grid">
+            <div class="category"  onclick="goTofinalpg()">CSS </div>
+            <div class="category"   onclick="goTofinalpg()">Java  (Basic)</div>
+            <div class="category"   onclick="goTofinalpg()">Python</div>
+            <div class="category"  onclick="goTofinalpg()">HTML</div>
+            <div class="category"  onclick="goTofinalpg()">c++</div>
+            <div class="category"  onclick="goTofinalpg()">MySQL</div>
+            <div class="category"  onclick="goTofinalpg()">java  (Advanced)</div>
+            <div class="category"  onclick="goTofinalpg()">C# Advanced</div>
+            <div class="category"  onclick="goTofinalpg()">BootStrap</div>
+            <div class="category"  onclick="goTofinalpg()">Angular js</div>
+            <div class="category"  onclick="goTofinalpg()">PHP  English</div>
+            <div class="category"  onclick="goTofinalpg()">laravel</div>
+        </div>
+    </div>
+
+    <div class="content-box">
+       
+        <button class="button" onclick="goBack()">Go Back</button>
+    </div>
+
+    <script>
+        
+        function  goTofinalpg() {
+            window.location.href = "finalpg.html"; // Navigates to the next page
+        }
+   
+        function goBack() {
+            window.location.href = "index.html"; // Navigates back to home page
+        }
+    </script>
+
+</body>
+
+</html>

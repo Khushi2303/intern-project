@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnTube - Course Page</title>
+    <link rel="stylesheet" href="course-pagecss.css">
+    <style >
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="banner">
+            <img src="Resources/image 11.svg" alt="LearnTube Logo" class="logo"> LearnTube.ai
+
+        </div>
+        <div class="h-[36px] w-[2px] bg-white/20"></div>
+        <div class="text">
+            backed by <div></div>
+            <span class="highlight"><img src="Resources/use2460.svg" </span> for Startups
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>What <span class="highlight">Skill</span> Do You Want To Get Certified In?</h1>
+        <p>Select the category you are interested in or type the skill directly</p>
+        
+        <input type="text" placeholder="Find any skill you want" class="search-bar">
+        
+        <div class="progress-bar">
+            <div class="progress"></div>
+            <span>Step 2/2</span>
+        </div>
+
+        <h2>Choose A Category</h2>
+        <div class="grid">
+            <div class="category"  onclick="goTofinalpg()">Digital Marketing Fundamentals </div>
+            <div class="category"  onclick="goTofinalpg()" >SEO (English)</div>
+            <div class="category" onclick="goTofinalpg()">Social Media Marketing (English)</div>
+            <div class="category"  onclick="goTofinalpg()">Content Marketing (English)</div>
+            <div class="category"  onclick="goTofinalpg()">Search Engine Marketing</div>
+            <div class="category"  onclick="goTofinalpg()">Email Marketing</div>
+            <div class="category"  onclick="goTofinalpg()">Web Analytics</div>
+            <div class="category"  onclick="goTofinalpg()">Account Management & Client Servicing</div>
+            <div class="category"  onclick="goTofinalpg()">Lead Generation</div>
+            <div class="category"  onclick="goTofinalpg()">Branding & Design Essentials</div>
+            <div class="category"  onclick="goTofinalpg()">Display Advertisements</div>
+            <div class="category"  onclick="goTofinalpg()">Influencer Marketing</div>
+        </div>
+    </div>
+
+    <div class="content-box">
+       
+        <button class="button" onclick="goBack()">Go Back</button>
+    </div>
+
+    <script>
+        
+       
+        function goTofinalpg() {
+            window.location.href = "finalpg.html"; // Navigates to the next page
+        }
+   
+        function goBack() {
+            window.location.href = "index.html"; // Navigates back to home page
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+.body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #0F2B46;
+    color: white;
+   
+}
+
+.content-box {
+    background-color: rgba(15, 43, 70, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.button {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #357ae8;
+}
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(15, 43, 70, 0.8);
+    /* Dark blue with transparency */
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: fit-content;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* Light border for visibility */
+}
+
+/* Gpt code */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0F2B46;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.highlight {
+    color: #4285F4;
+    font-weight: bold;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.progress {
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 11px; /* Adds spacing between buttons */
+    justify-content: center;
+    max-width: 600px; /* Adjust width for better layout */
+    margin: 20px auto; /* Centers the grid */
+    border-radius:2rem ;
+}
+
+.category {
+    background-color: #1E3A5A;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    text-align: left;
+    font-size: 125%;
+}
+
+.category:hover {
+    background-color: #4285F4;
+}
