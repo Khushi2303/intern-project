@@ -1,0 +1,156 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #0F2B46;
+    color: white;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a {
+    text-decoration: none;
+    color: #0F2B46;
+    font-weight: 600;
+    margin: 0 15px;
+}
+.banner{
+display: flex;
+justify-content: center;
+    align-items: center;
+    /* position: relative;
+    left: 550px; */
+    background-color: rgba(15, 43, 70, 0.8); /* Dark blue with transparency */
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: fit-content;
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for visibility */
+}
+.bg-white\/20 {
+    background-color: hsla(0, 0%, 100%, .2);
+}
+.w-\[2px\] {
+    width: 2px;
+}
+.h-\[36px\] {
+    height: 36px;
+}
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+.text {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.highlight {
+    color: #4285F4; /* Google Blue */
+    font-weight: bold;
+}
+.hero {
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #0AB4FF;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+}
+.text-\[28px\] {
+    font-size: 28px;
+}
+.text-center {
+    text-align: center;
+}
+.italic {
+    font-style: italic;
+    color: white;
+}
+.text-span_color {
+    --tw-text-opacity: 1;
+    color: rgb(0 193 255 / var(--tw-text-opacity));
+}
+.font-bold {
+    font-weight: 700;
+}
+.btn {
+    display: inline-block;
+    background-color: #42C742;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.certificate {
+    background-color: yellow;
+    
+    
+    color: black;
+    padding: 14px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+.certificate img{
+    max-width: 500px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 60px;
+    max-width: 90%;
+}
+.py-3 {
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+}
+.bg-secondary_background {
+    --tw-bg-opacity: 1;
+    background-color: rgb(45 79 113 / var(--tw-bg-opacity));
+}
+.rounded-xl {
+    border-radius: .75rem;
+}
+.w-full {
+    max-width: 500px;
+}
+.mt-4 {
+    margin-top: 1rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #02121E;
+}
