@@ -8,3 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+function goToCoursePage() {
+    window.location.href = "course-page.html"; // Navigates to the next page
+}
+
